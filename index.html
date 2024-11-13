@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">   
+    <link rel="stylesheet" href=""> 
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Webpage</title>
+</head>
+<body>
+    <div class="container">
+
+
+ <nav class="navigation">
+    <div class="menu-container">
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="subpage.html">Recipe</a>
+        </li>
+        <li>
+            <a href="#">About us</a>
+        </li>
+     </ul>
+    </div>
+ </nav>
+ 
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-text">
+          <p class="hero-text-smallerst">Hiiiii</p>
+          <p class="hero-text-medium">My name is Polina</p>
+          <p class="hero-text-lurge">Barannyk</p>
+          <p class="hhero-text-smallerst">cute</p>
+
+        </div>
+        <div class="hero-search">
+            <input type="search" name="" class="search-input" placeholder="Search">
+        </div>
+    </div>
+</section>
+
+<section class="todaysrecipie">
+     <div class="todays_recipes_headline">
+        <h3>Recipe of the day</h3>
+     </div>
+
+     <div class="todays_recipes_content">
+       <div class="todays_recipes_content_block">
+        <div class="todays_recipes_content_block_image">
+        <img src="https://picsum.photos/300/175 " alt="">
+        </div>
+        <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+                <h4>FoodName</h4>
+                <p>Lorem ipsu,mutch </p>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+                <div class="todays_recipes_content_block_text_bottom_area">
+                    <div class="todays_recipes_content_block_text_bottom_area_left" data-category="seafood">
+                        <p class="category-colors" data-category="seafood">seafood</p>
+                        <p>Recipe</p>
+                    </div>
+                    <div class="todays_recipes_content_block_text_bottom_area_right">
+                        <button>
+                            <a href="#">How to</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="todays_recipes_content_block">
+        <div class="todays_recipes_content_block_image">
+        <img src="https://picsum.photos/300/175 " alt="">
+        </div>
+        <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+                <h4>FoodName</h4>
+                <p>Lorem ipsu,mutch ss</p>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+                <div class="todays_recipes_content_block_text_bottom_area">
+                    <div class="todays_recipes_content_block_text_bottom_area_left" data-category="chicken">
+                        <p class="category-colors" data-category="chicken">chicken</p>
+                        <p data-category="chicken" id="cat-test"></p>
+                        <p>Recipe</p>
+                    </div>
+                    <div class="todays_recipes_content_block_text_bottom_area_right">
+                        <button>
+                            <a href="#">How to</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="todays_recipes_content_block">
+        <div class="todays_recipes_content_block_image">
+        <img src="https://picsum.photos/300/175 " alt="">
+        </div>
+        <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+                <h4>FoodName</h4>
+                <p>Lorem ipsu,mutch </p>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+                <div class="todays_recipes_content_block_text_bottom_area">
+                    <div class="todays_recipes_content_block_text_bottom_area_left" data-category="dessert">
+                        <p class="category-colors" data-category="dessert">dessert</p>
+                        <p>Recipe</p>
+                    </div>
+                    <div class="todays_recipes_content_block_text_bottom_area_right">
+                        <button>
+                            <a href="#">How to</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="todays_recipes_content_block">
+        <div class="todays_recipes_content_block_image">
+        <img src="https://picsum.photos/300/175 " alt="">
+        </div>
+        <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+                <h4>FoodName</h4>
+                <p>Lorem ipsu,mutch </p>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+                <div class="todays_recipes_content_block_text_bottom_area">
+                    <div class="todays_recipes_content_block_text_bottom_area_left" data-category="meats">
+                        <p class="category-colors" data-category="meats">meats</p>
+                        <p>Recipe</p>
+                    </div>
+                    <div class="todays_recipes_content_block_text_bottom_area_right">
+                        <button>
+                            <a href="#">How to</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+        
+     </div>
+    
+</section>
+
+<section class="categories">
+    <div class="todays_recipes_headline">
+        <h3>Categories selection</h3>
+     </div>
+
+     <div class="categories_content">
+
+    <!-- one block. 1 icon & 1 text - copy for each new category -->
+        <div class="categories_content_block">
+            <div class="categories_content_block_icon">
+                <i class="fa-solid fa-drumstick-bite" id="chicken-icon"></i>
+            </div>
+            <div class="categories_content_block_text">
+                <p>Chicken</p>
+            </div>
+        </div>
+ <!-- one block end -->
+ <div class="categories_content_block">
+    <div class="categories_content_block_icon">
+        <i class="fa-solid fa-leaf" id="veg-icon"></i>
+    </div>
+    <div class="categories_content_block_text">
+        <p>Vegetarian</p>
+    </div>
+</div>
+<!-- one block end -->
+<div class="categories_content_block">
+    <div class="categories_content_block_icon">
+        <i class="fa-solid fa-bacon" id="meats-icon"></i>
+    </div>
+    <div class="categories_content_block_text">
+        <p>Meats</p>
+    </div>
+</div>
+<!-- one block end -->
+<div class="categories_content_block">
+    <div class="categories_content_block_icon">
+        <i class="fa-solid fa-fish" id="seafood-icon"></i>
+    </div>
+    <div class="categories_content_block_text">
+        <p>Seafood</p>
+    </div>
+</div>
+<!-- one block end -->
+<div class="categories_content_block">
+    <div class="categories_content_block_icon">
+        <i class="fa-solid fa-bowl-food" id="pasta-icon"></i>
+    </div>
+    <div class="categories_content_block_text">
+        <p>Pasta</p>
+    </div>
+</div>
+<!-- one block end -->
+<div class="categories_content_block">
+    <div class="categories_content_block_icon">
+        <i class="fa-solid fa-cookie-bite" id="snacks-icon"></i>
+    </div>
+    <div class="categories_content_block_text">
+        <p>Snacks</p>
+    </div>
+</div>
+<!-- one block end -->
+<div class="categories_content_block">
+    <div class="categories_content_block_icon">
+        <i class="fa-solid fa-cake-candles" id="dessert-icon"></i>
+    </div>
+    <div class="categories_content_block_text">
+        <p>Dessert</p>
+    </div>
+</div>
+<!-- one block end -->
+     </div>
+     
+</section>
+
+<section class="content_image">
+    
+    <div class="content_image-box"></div>
+
+<div class="content_image_image">
+   
+        <div class="content_image-container">
+            <div class="content_image-text">
+              <p class="content_image-text-smallerst">Hiiiii</p>
+              <p class="content_image-text-medium">My name is Polina</p>
+              <p class="content_image-text-lurge">Barannyk</p>
+    </div>
+</div>
+</div>
+
+
+
+</section>
+
+
+
+<section class="content_area">
+
+    <div class="todays_recipes_headline">
+        <h3>In the kitchen</h3>
+     </div>
+
+</section>
+
+
+
+<section class="in_the_kitchen">
+    <div class="in_the_kitchen_content">
+        <!-- copy each of these until you hav 6 -->
+        <div class="in_the_kitchen_content_block">
+            <div class="in_the_kitchen_content_block_inside">
+                <div class="in_the_kitchen_content_block_text">
+                    <div class="in_the_kitchen_content_block_text_top">
+                        <h1 class="kitchen_text_top_top">In the kitchen</h1>
+                        <h2 class="kitchen_text_top">How to plate as a pro</h2>
+                        <p>Plating techniques - no salt bae crap. 
+                            See how to properly arrange and design
+                            a plate.</p>
+                    </div>
+                    <div class="in_the_kitchen_content_block_bottom">
+                        <button>
+                            <a href="#">PLATING</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- copy each of these until you hav 6 -->
+          
+          <!-- copy each of these until you hav 6 -->
+        <div class="in_the_kitchen_content_block">
+            <div class="in_the_kitchen_content_block_image">
+                <img src="https://picsum.photos/300/175 " alt>
+            </div>
+        </div>
+         <!-- copy each of these until you hav 6 -->
+
+          <!-- copy each of these until you hav 6 -->
+        <div class="in_the_kitchen_content_block">
+            <div class="in_the_kitchen_content_block_image">
+                <img src="https://picsum.photos/300/175 " alt>
+            </div>
+        </div>
+         <!-- copy each of these until you hav 6 -->
+
+          <!-- copy each of these until you hav 6 -->
+        <div class="in_the_kitchen_content_block">
+            <div class="in_the_kitchen_content_block_inside">
+                <div class="in_the_kitchen_content_block_text">
+                    <div class="in_the_kitchen_content_block_text_top">
+                        <h1 class="kitchen_text_top_top">In the kitchen</h1>
+                        <h2 class="kitchen_text_top">Recipes are for...</h2>
+                        <p>Big brawl in kitchen. Who takes it? 
+                            Winner gets to take home the desserts! 
+                            Losers can wave goodbye! </p>
+                    </div>
+                    <div class="in_the_kitchen_content_block_bottom">
+                        <button>
+                            <a href="#">RECIPE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- copy each of these until you hav 6 -->
+
+          <!-- copy each of these until you hav 6 -->
+        <div class="in_the_kitchen_content_block">
+            <div class="in_the_kitchen_content_block_inside">
+                <div class="in_the_kitchen_content_block_text">
+                    <div class="in_the_kitchen_content_block_text_top">
+                        <h1 class="kitchen_text_top_top">In the kitchen</h1>
+                        <h2 class="kitchen_text_top">Meats - how to baste</h2>
+                        <p>Big brawl in kitchen. Who takes it? 
+                            Winner gets to take home the desserts! 
+                            Very scrumptious!</p>
+                    </div>
+                    <div class="in_the_kitchen_content_block_bottom">
+                        <button>
+                            <a href="#">GUIDES</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- copy each of these until you hav 6 -->
+
+          <!-- copy each of these until you hav 6 -->
+        <div class="in_the_kitchen_content_block">
+            <div class="in_the_kitchen_content_block_image">
+                <img src="https://picsum.photos/300/175 " alt>
+            </div>
+        </div>
+         <!-- copy each of these until you hav 6 -->
+    </div>
+</section>
+
+<section class="end">
+    <div class="end_content">
+
+        <div class="end_content_block quarter">
+            <div class="end_content_block_text">
+                <div class="end_content_block_text_left">
+                    <p>YouTube</p>
+                    <p>Instagram</p>
+                    <p>Facebook</p>
+                </div>
+            </div>
+            <div class="end_content_block_icon">
+                <i class="fa-brands fa-youtube" id="YouTube-icon"></i>
+                <i class="fa-brands fa-instagram" id="Instagram-icon"></i>
+                <i class="fa-brands fa-facebook" id="Facebook-icon"></i>
+            </div>
+        </div>
+
+        <div class="end_content_block quarter">
+            <div class="end_content_block_text">
+                <div class="end_content_block_text_left">
+                    <p>Home</p>
+                    <p>Recipe</p>
+                    <p>About</p>
+                </div>
+            </div>
+            <div class="end_content_block_icon">
+                
+            </div>
+        </div>
+
+      
+
+        <div class="end_content_block half">
+            <div class="end_content_block_text">
+                <div class="end_content_block_text_left">
+                    <p>Etsy is powered by 100% 
+                        renewable electricity.</p>
+                        <p>Link one</p>
+                        <p>Link Two</p>
+                </div>
+            </div>
+            <div class="end_content_block_icon">
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer></footer>
+
+    </div>
+</body>
+</html>
+
+
+ 
