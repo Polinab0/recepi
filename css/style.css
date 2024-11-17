@@ -136,6 +136,7 @@ margin-bottom: 15px;
     grid-column: 2 / span 3;
     margin-top: 60px;
     grid-row: 2;
+    position: relative;
 }
   .search-input {
     background-color: transparent;
@@ -591,7 +592,7 @@ background: linear-gradient(90deg, rgba(88,88,88,0.24) 0%, rgba(88,88,88,0.24) 6
   }
 
   .recipe_details_ingredients input[type="checkbox"]:checked::after { 
-    content: '';
+   
     display: block;
     width: 5px;
     height: 10px;
@@ -661,7 +662,7 @@ background: linear-gradient(90deg, rgba(88,88,88,0.24) 0%, rgba(88,88,88,0.24) 6
   /* filler to fake rest of page */
   
   .filler_block {
-    height: 2000px;
+    height: 800px;
     width: 100%;
    }
 
@@ -702,8 +703,127 @@ background: linear-gradient(90deg, rgba(88,88,88,0.24) 0%, rgba(88,88,88,0.24) 6
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    line-height: 40px;
    }
    
-   .Ingredients li {
+   .Ingredients ol {
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    line-height: 40px;
+   }
+
+
+   .searchicon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+   }
+   
+
+   .about3{
+    color: var(--bacground-color-light);
+    width: var(--width-12col);
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    line-height: 40px;
+   }
+
+   .about1 ol{
+    color: var(--bacground-color-light);
+    width: var(--width-12col);
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    line-height: 40px;
+   }
+
+   .about2 ol{
+    color: var(--bacground-color-light);
+    width: var(--width-12col);
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    line-height: 40px;
+   }
+
+   .about_us_content { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--grid-gap);
+    box-sizing: border-box;
+    width: var(--width-12col);
+    margin: 10px auto; 
+}
+
+   .about_us_content_block {
+    background-color: var(--bacground-color-light);
+    border-radius: 5px;
+   }
+   
+
+   .about_us_content_block_image img {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+   }
+    
+   .about_us_content_block_text {
+    padding: 20px;
+    color: var(--color_dark);
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
    }
+
+   .about_us_content_block_text  h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+   }
+    
+   .about_us_content_block_text p {
+    font-size: 16px;
+    font-family: 'Robot Condense', sans-serif;
+   }
+    
+   .about_us_content_block_text_bottom_area {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+   }
+
+   .about_us_content_block p {
+    font-size: 16px;
+    font-family: 'Robot Condense', sans-serif;
+   }
+    
+   .hero-search {
+    grid-column: 2 / span 3;
+    margin-top: 60px;
+    grid-row: 2;
+    position: relative;
+   }
+
+   .searchicon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   }
+
+
+    
+
