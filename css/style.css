@@ -592,7 +592,7 @@ background: linear-gradient(90deg, rgba(88,88,88,0.24) 0%, rgba(88,88,88,0.24) 6
   }
 
   .recipe_details_ingredients input[type="checkbox"]:checked::after { 
-   
+    content: "";
     display: block;
     width: 5px;
     height: 10px;
@@ -662,7 +662,7 @@ background: linear-gradient(90deg, rgba(88,88,88,0.24) 0%, rgba(88,88,88,0.24) 6
   /* filler to fake rest of page */
   
   .filler_block {
-    height: 800px;
+    height: 1400px;
     width: 100%;
    }
 
@@ -824,6 +824,40 @@ background: linear-gradient(90deg, rgba(88,88,88,0.24) 0%, rgba(88,88,88,0.24) 6
     left: 10px;
    }
 
+   @media (width < 768px) {
 
+    :root {
+
+        --width-12col: 100%;
+    }
+    .categories_content {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      width: 50%;
+    }
+    .todays_recipes_content {
+        flex-direction: column;
+    }
+    .todays_recipes_content{
+        grid-template-columns: 1fr;
+    }
+   .in_the_kitchen_content {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    width: var(--width-12col);
+   }
+   .in_the_kitchen_content {
+   
+   }
+   .content_image-text p {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+   }
     
+} 
+
+
+
 
